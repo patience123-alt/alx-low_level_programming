@@ -1,4 +1,4 @@
-#include<stdio.h>
+#inlude <stdio.h>
 /**
 *main-entry point for the program.
 *
@@ -7,5 +7,5 @@
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
-retun(0)
+return (0);
 }

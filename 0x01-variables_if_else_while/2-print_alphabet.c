@@ -1,28 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible different combinations of two digits
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n, m;
-	for (n = 48; n <= 56; n++)
-	{
-		for (m = 49; m <= 57; m++)
-		{
+	char ch;
 
-			if (m > n)
-			{
-				putchar(n);
-				putchar(m);
-				if (n !=56 || m != 57)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-		}
+	for (ch = 'a'; ch <= 'z' ; ch++)
+	{
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
